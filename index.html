@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to Form URL Encoded Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="converter-container">
+            <h2>JSON to Form URL Encoded Converter</h2>
+            <p>For your CSRF Bypass</p>
+            <p>Paste your JSON data below:</p>
+            <textarea id="jsonInput" placeholder="Paste JSON here..."></textarea>
+            <button onclick="convertJsonToFormUrlEncoded()">Convert</button>
+            <div class="result" id="result"></div>
+        </div>
+        <div class="blog-preview-container">
+            <h2 class="blog-heading">After converting JSON to application/x-www-form-urlencoded, you can go through some of my blogs</h2>
+            <div class="blog-preview">
+                <iframe src="https://thecyberneh.github.io/" title="Blog Preview"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
